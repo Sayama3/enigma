@@ -11,13 +11,27 @@ config_version=5
 [application]
 
 config/name="Enigma"
+config/version="0.0.1"
+run/main_scene="uid://rkp86870e0mo"
+config/use_custom_user_dir=true
 config/features=PackedStringArray("4.7", "GL Compatibility")
-config/icon="res://icon.svg"
+run/max_fps=240
+config/icon="uid://bo1fbssn6670k"
+
+[debug]
+
+settings/stdout/print_fps=true
 
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[gui]
+
+theme/default_font_multichannel_signed_distance_field=true
+theme/default_font_generate_mipmaps=true
+theme/lcd_subpixel_layout=2
 
 [physics]
 
