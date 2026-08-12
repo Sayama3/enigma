@@ -21,6 +21,7 @@ config/icon="uid://bo1fbssn6670k"
 [debug]
 
 settings/stdout/print_fps=true
+gdscript/warnings/untyped_declaration=2
 
 [display]
 
